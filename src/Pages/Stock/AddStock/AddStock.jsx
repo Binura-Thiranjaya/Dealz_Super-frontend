@@ -45,7 +45,7 @@ export default function AddStock() {
                     <TextFields label="Product Batch Number" name="batchNumber" type="text" />
                     <button className="add">Add Product</button>
                     <button className="reset" type='reset'>Reset</button>
-
+                    {/* <div></div> */}
                   </Form>
                 </div>
               )}
