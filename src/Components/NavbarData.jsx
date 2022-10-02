@@ -3,6 +3,7 @@ import React from 'react'
 import * as AiIcons from "react-icons/ai";
 import * as IoIcons from "react-icons/io";
 import * as MdIcons from "react-icons/md";
+import * as TbIcons from "react-icons/tb";
 export const NavbarData=[
     {
         title:'Home',
@@ -20,6 +21,18 @@ export const NavbarData=[
         title:'Add Stock',
         path:'/addstock',
         icon:<MdIcons.MdInventory/>,
+        cName:'nav-text'
+    },
+    {
+        title:'Add User',
+        path:'/adduser',
+        icon:<AiIcons.AiOutlineUserAdd/>,
+        cName:'nav-text'
+    },
+    {
+        title:'Add Supplier',
+        path:'/addsupplier',
+        icon:<TbIcons.TbTruckDelivery/>,
         cName:'nav-text'
     }
 ]
