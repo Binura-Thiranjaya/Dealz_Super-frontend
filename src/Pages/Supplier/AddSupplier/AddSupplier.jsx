@@ -12,7 +12,7 @@ export default function AddSupplier() {
     supplier_id: Yup.string().required('Please Enter Supplier ID'),
     supplier_name: Yup.string().required('Please Enter Supplier Name'),
     supplier_address: Yup.string().required('Please Enter Supplier Address'),
-    supplier_contact_number: Yup.number().positive('Not a Valid Phone Number').required('Please Enter Supplier Phone Number').typeError('Not a Valid Phone Number')
+    supplier_contact_number: Yup.number().positive('Not a Valid Phone Number').required('Please Enter Supplier Phone Number').typeError('Not a Valid Phone Number')//.max(,'Invalid Phone Number size')
   })
   return (
     <>

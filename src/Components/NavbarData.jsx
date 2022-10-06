@@ -4,6 +4,7 @@ import * as AiIcons from "react-icons/ai";
 import * as IoIcons from "react-icons/io";
 import * as MdIcons from "react-icons/md";
 import * as TbIcons from "react-icons/tb";
+import * as FaIcons from "react-icons/fa";
 export const NavbarData=[
     {
         title:'Home',
@@ -33,6 +34,12 @@ export const NavbarData=[
         title:'Add Supplier',
         path:'/addsupplier',
         icon:<TbIcons.TbTruckDelivery/>,
+        cName:'nav-text'
+    },
+    {
+        title:'Add Bill',
+        path:'/addbill',
+        icon:<FaIcons.FaMoneyCheckAlt/>,
         cName:'nav-text'
     }
 ]

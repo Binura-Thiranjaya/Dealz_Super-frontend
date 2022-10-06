@@ -3,6 +3,7 @@ import Home from "./Pages/Home/Home"
 import AddStock from "./Pages/Stock/AddStock/AddStock"
 import AddUser from "./Pages/User/AddUser/AddUser"
 import AddSupplier from "./Pages/Supplier/AddSupplier/AddSupplier"
+import AddBill from "./Pages/Sales/AddBill/AddBill"
 export const routes = [
     {
         path: '/login',
@@ -23,6 +24,10 @@ export const routes = [
     {
         path: '/addsupplier',
         Component: <AddSupplier/>
+    },
+    {
+        path: '/addbill',
+        Component: <AddBill/>
     }
 
 ]

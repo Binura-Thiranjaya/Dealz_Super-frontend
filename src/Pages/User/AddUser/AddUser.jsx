@@ -4,7 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { Formik, Form } from 'formik';
 import userImage from "../Assests_user/user.png";
 import TextFields from './UsertextFields';
-import * as Yup from 'yup';
+import * as Yup from 'yup'; //to do the validations
 import './add_user.css' //done
 
 export default function AddUser() { //validations 
