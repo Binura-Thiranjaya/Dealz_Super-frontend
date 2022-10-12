@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import Navbar from '../../../../Components/Navbar'
+
 
 export default function AddCustomer() {
     const [phone, setPhone] = useState('');
@@ -10,8 +12,11 @@ export default function AddCustomer() {
        
     }
   return (
-  
+  <div>
+        <Navbar />
     <div className="container">
+        <div className="row">
+            <div className="col-sm">
         <h1>Add Customer</h1>
         <form action="" method="post">
             <div className="form-group">
@@ -35,10 +40,13 @@ export default function AddCustomer() {
             </div>
             <button type="submit" className="btn btn-warning mt-2">Reg Customer</button>
         </form>
-
+        </div>
+        
         <button type="button" class="btn btn-danger btn-lg btn-block mt-2 float-right">Finish</button>
-        <div class="float-left">Float left on all viewport sizes</div>
+        </div>
 
     </div>
+    </div>
+
   )
 }

@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
-import Customer from '../AddCustomer/AddCustomer'
-import {Routes, Route, useNavigate} from 'react-router-dom';
+import {useNavigate} from 'react-router-dom';
 
 
 export default function AddCustomer() {
@@ -17,9 +16,6 @@ export default function AddCustomer() {
 
 
     const saveDB=()=>{
-        // <Routes>
-        //     <Route path="/addCustomer" element={<Customer/>}/>
-        // </Routes>
         navigate('addCustomer');
     }
 

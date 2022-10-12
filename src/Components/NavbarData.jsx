@@ -41,5 +41,11 @@ export const NavbarData=[
         path:'/addbill',
         icon:<FaIcons.FaMoneyCheckAlt/>,
         cName:'nav-text'
+    },
+    {
+        title:'Search Bill',
+        path:'/search-bill',
+        icon:<FaIcons.FaMoneyCheckAlt/>,
+        cName:'nav-text'
     }
 ]
