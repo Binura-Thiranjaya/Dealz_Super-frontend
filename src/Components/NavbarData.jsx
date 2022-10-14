@@ -19,8 +19,8 @@ export const NavbarData=[
         cName:'nav-text'
     },
     {
-        title:'Add Stock',
-        path:'/addstock',
+        title:'Stock',
+        path:'/stock',
         icon:<MdIcons.MdInventory/>,
         cName:'nav-text'
     },
