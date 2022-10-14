@@ -6,7 +6,9 @@ import AddWarehouse from "./Pages/Stock/AddWarehouse/AddWarehouse"
 import AddnewBatch from "./Pages/Stock/AddBatches/AddnewBatch"
 import AddUser from "./Pages/User/AddUser/AddUser"
 import AddSupplier from "./Pages/Supplier/AddSupplier/AddSupplier"
-import AddBill from "./Pages/Sales/AddBill/AddBill"
+import AddBill from "./Pages/Sales/AddBill/AddSale"
+import AddCustomer from "./Pages/Sales/AddBill/AddCustomer/AddCustomer"
+
 export const routes = [
     {
         path: '/login',
