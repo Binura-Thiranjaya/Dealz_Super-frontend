@@ -19,8 +19,8 @@ export const NavbarData=[
         cName:'nav-text'
     },
     {
-        title:'Add Stock',
-        path:'/addstock',
+        title:'Stock',
+        path:'/stock',
         icon:<MdIcons.MdInventory/>,
         cName:'nav-text'
     },
@@ -39,6 +39,12 @@ export const NavbarData=[
     {
         title:'Add Bill',
         path:'/addbill',
+        icon:<FaIcons.FaMoneyCheckAlt/>,
+        cName:'nav-text'
+    },
+    {
+        title:'Search Bill',
+        path:'/search-bill',
         icon:<FaIcons.FaMoneyCheckAlt/>,
         cName:'nav-text'
     }
