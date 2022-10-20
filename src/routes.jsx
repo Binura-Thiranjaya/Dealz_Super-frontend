@@ -5,6 +5,7 @@ import AddUser from "./Pages/User/AddUser/AddUser"
 import AddSupplier from "./Pages/Supplier/AddSupplier/AddSupplier"
 import AddBill from "./Pages/Sales/AddBill/AddSale"
 import AddCustomer from "./Pages/Sales/AddBill/AddCustomer/AddCustomer"
+import SearchBill from "./Pages/Sales/SearchBill/index"
 
 export const routes = [
     {
@@ -34,6 +35,10 @@ export const routes = [
     {
         path: '/addbill/addcustomer',
         Component: <AddCustomer/>
+    },
+    {
+        path: '/search-bill',
+        Component: <SearchBill/>
     }
 
 ]

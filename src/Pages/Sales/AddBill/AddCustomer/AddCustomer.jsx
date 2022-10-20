@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import Navbar from '../../../../Components/Navbar'
 
-
 export default function AddCustomer() {
     const [phone, setPhone] = useState('');
     const [address, setAddress] = useState('');
@@ -42,7 +41,7 @@ export default function AddCustomer() {
         </form>
         </div>
         
-        <button type="button" class="btn btn-danger btn-lg btn-block mt-2 float-right">Finish</button>
+        <button type="button" className="btn btn-danger btn-lg btn-block mt-2 float-right">Finish</button>
         </div>
 
     </div>
